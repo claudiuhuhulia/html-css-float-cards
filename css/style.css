@@ -41,6 +41,7 @@ img {
     width: 100px; 
     height: 100%; 
     float: left;
+    margin-right:10px ;
 }
 
 .clearfix::after {
@@ -52,4 +53,15 @@ a{
     color: #59c5da;
     cursor: pointer;
     text-decoration: none;
+}
+
+.card > h3{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.card > a{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
 }
