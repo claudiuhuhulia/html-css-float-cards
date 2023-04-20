@@ -12,15 +12,44 @@ body
 
 .container{
     max-width: 1080px;
-    margin: 60px auto;
-    text-align: center;
+    margin: 40px auto;
     background-color: white;
+    padding: 30px;
     
 }
 h1{
     color: #e53170;
+    
+}
+p,h1 {
+    text-align: center;
 
 }
-.intestazione{
-padding: 40px;
+
+header, p{
+    margin-bottom: 30px;
+}
+.card{
+    height: 100px;
+    color: white;
+    background-color: black;
+    width: calc(100%/3 - 20px); 
+    float: left;
+    margin: 10px;
+}
+img {
+    width: 100px; 
+    height: 100%; 
+    float: left;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+a{
+    color: #59c5da;
+    cursor: pointer;
+    text-decoration: none;
 }
