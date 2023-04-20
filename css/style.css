@@ -11,10 +11,11 @@ body
 }
 
 .container{
-    max-width: 1080px;
-    margin: 40px auto;
+    max-width: 1500px;
+    margin: 70px auto;
     background-color: white;
-    padding: 30px;
+    padding: 30px 142px;
+    padding-bottom: 160px;
     
 }
 h1{
@@ -26,7 +27,7 @@ p,h1 {
 
 }
 
-header, p{
+header, p, section{
     margin-bottom: 30px;
 }
 .card{
